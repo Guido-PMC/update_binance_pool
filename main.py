@@ -8,6 +8,7 @@ import os
 import yfinance as yf
 import pandas as pd
 import urllib
+import schedule
 from bs4 import BeautifulSoup
 import gspread
 from gspread_dataframe import *
