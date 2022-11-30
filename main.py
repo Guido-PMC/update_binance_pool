@@ -132,6 +132,6 @@ def job():
         zabbix_push(usuariosPoolList[x], "rev_share", revShareList[x])
         print("----------------\n\n\n")
 
-schedule.every(5).minutes.do(job)
+schedule.every(1).minutes.do(job)
 while True:
         schedule.run_pending()
